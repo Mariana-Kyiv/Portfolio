@@ -45,7 +45,7 @@ p {
     text-align: center;
 }
 
-.hero{
+.hero {
     background-color: var(--secondary-color);
     text-align: center;
     padding: 160px 20px;
@@ -130,29 +130,43 @@ p {
     }
 
     h2 {
-        font-size: 36px;
+        font-size: 30px;
     }
 
     h3 {
         font-size: 22px;
         margin-top: 10px;
     }
+         
+    p {
+             font-size: 20px;
+         }
 
     img {
         display: none
+    }
+    .hero {
+        padding: 80px 10px;
     }
 }
 
 @media (max-width: 450px) {
     h1 {
-        font-size: 34px;
+        font-size: 30px;
     }
 
     h2 {
-        font-size: 30px;
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 16px;
     }
 
     img {
         display: none;
     }
+     .hero {
+    padding: 60px 10px;
+           }
 }
