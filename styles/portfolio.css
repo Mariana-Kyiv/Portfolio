@@ -51,6 +51,11 @@ p {
     padding: 160px 20px;
 }
 
+footer {
+    background-color: var(--shadow);
+    margin-top: 100px;
+}
+
 .hero p{
     font-size: 36px;
     font-weight: bold;
@@ -122,6 +127,21 @@ p {
 
 .email-link:hover {
     text-decoration: underline;
+}
+
+
+.about-me   h1 {
+    font-size: 54px;
+    line-height: 1;
+} 
+
+.about-me p {
+    font-size: 16px;
+}
+
+.works {
+    margin: 50px;
+    padding: 100px;
 }
 
 @media (max-width: 767px) {
