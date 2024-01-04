@@ -53,7 +53,7 @@ p {
 
 footer {
     background-color: var(--shadow);
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 .hero p{
@@ -142,6 +142,24 @@ footer {
 .works {
     margin: 50px;
     padding: 50px;
+}
+
+.social-links a {
+    padding: 20px;
+    margin: 20px;
+    font-size: 26px;
+    text-decoration: none;
+    color: var(--accent-color);
+    background-color: var(--shadow);
+    border-radius: 35px;
+    box-shadow: var(--box-shadow);
+    transition: all 100ms ease-in-out;
+}
+
+.social-links a:hover {
+    color:white;
+    background-color: var(--accent-color);
+
 }
 
 @media (max-width: 767px) {
